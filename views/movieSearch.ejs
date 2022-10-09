@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            body{
+                background: linear-gradient(rgba(74, 71, 71, 0.75),rgba(76, 69, 69, 0.75)),url("https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/383fc36a-aa04-4dfd-95a0-a4b71bc21eed/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+                background-attachment: fixed;  
+                background-repeat: no-repeat;
+                background-size: cover; 
+            }
+
+            .input{
+                width:70%;
+	color:black;
+	display:block;
+    border:none;
+	padding:15px 10px;
+	border-radius:25px;
+    opacity:1;
+            }
+            .sub{
+                border-radius:25px;
+                border:none;
+                padding:15px 20px;
+                width:21%;
+                color:black;   
+            }
+            .div1{
+                padding-top:130px;
+                padding-left: 250px;
+                background-attachment: fixed;  
+            }
+            .submit{
+                padding-left: 500px;   
+            }
+        </style>
+    </head>
+    <body >
+        <p style="color:white;font-size: 1.5rem;"><b>MoviesInfo</b></p>
+        <form action="/movieName" method="GET">
+            <div class="div1">
+            <p style="color:rgba(244, 244, 16, 0.911);font-size: 2.525rem;text-shadow: 2px 2px black;    margin-block-start: 0em;
+            margin-block-end: 0em;">Unlimited Information About Movies,Web 
+                <br>Series and Serials.</p><br>
+                <p style="color:white;font-size: 1.5rem;letter-spacing: 2px;margin-block-start: 0em;
+                margin-block-end: 0em;">Enter the name of the movie you want to know about.</p><br>
+              <input type="text" name="moviename" class="input" placeholder="Enter name of the movie,serial  or web series"><br>
+              </div>
+              <div class="submit">
+              <input type="submit"  class="sub" value="Search">
+              </div>
+        </form>
+    </body>
+</html>
